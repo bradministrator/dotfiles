@@ -7,6 +7,8 @@ fi
 
 # User specific aliases and functions
 alias la="ls -la --color=auto"
+alias ll='ls -dGlF $(ls |grep -Ev '\''~|#'\'')'
+alias l.='la -d .*'
 alias br="bin/rails"
 alias brg="bin/rails generate"
 alias brd="bin/rails destroy"
