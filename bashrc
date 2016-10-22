@@ -20,3 +20,4 @@ alias migrate='RAILS_ENV=production bin/rake db:migrate'
 alias h="cd ~"
 alias ws="cd /var/www/scripts"
 export SVN_EDITOR="vim"
+export GIT_REPO="https://github.com/bradministrator/"
